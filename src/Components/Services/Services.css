@@ -1,0 +1,91 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    gap: 60px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+/* TITLE */
+.services-title {
+    position: relative;
+}
+
+.services-title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+/* GRID */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 x 2 grid */
+    gap: 30px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* SERVICE CARD */
+.my-service {
+    background: #32323c;
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    transition: 0.3s ease;
+    font-family: outfit;
+    text-align: center;
+}
+
+/* TITLE TEXT */
+.services-grid h3 {
+    font-size: 20px;
+    background: linear-gradient(267deg, #DA7C25 0.3%, #B923E1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* DESCRIPTION */
+.services-grid p {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* HOVER */
+.my-service:hover {
+    border: 2px solid blue;
+    background-image: linear-gradient(45deg, #3f0028, #582300);
+    transform: translateY(-6px);
+}
+
+/* ---------------- MOBILE RESPONSIVENESS ---------------- */
+@media (max-width: 768px) {
+
+    .services {
+        margin: 50px auto;
+        gap: 40px;
+    }
+
+    .services-title h1 {
+        font-size: 48px;
+        padding-top: 10px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr 1fr; /* 1 column on mobile */
+         width: 95%;
+    }
+
+    .services-grid p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
