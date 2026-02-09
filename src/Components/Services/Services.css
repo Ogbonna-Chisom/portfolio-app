@@ -80,7 +80,7 @@
 
     .services-grid {
         grid-template-columns: 1fr 1fr; /* 1 column on mobile */
-         width: 95%;
+        width: 95%;
     }
 
     .services-grid p {
