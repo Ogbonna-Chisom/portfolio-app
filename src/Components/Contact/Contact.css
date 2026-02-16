@@ -5,9 +5,10 @@
   justify-content: center;
   gap: 80px;
   margin: 80px 120px;
+  max-width: 900px;
 }
 
-/* TITLE */
+/*-----Title-----*/
 .contact-title {
   position: relative;
 }
@@ -19,14 +20,14 @@
   margin-top: 40px;
 }
 
-/* MAIN SECTION */
+/*-----Main Section-----*/
 .contact-section {
   display: flex;
   gap: 120px;
   width: 100%;
 }
 
-/* LEFT SIDE */
+/*-----Left Side-----*/
 .contact-left {
   display: flex;
   flex-direction: column;
@@ -36,7 +37,7 @@
 .contact-left h1 {
   font-size: 56px;
   font-weight: 500;
-  background: linear-gradient(267deg, #265cc9 0.3%, #B923E1 102.06%);
+  background: linear-gradient(267deg, #265cc9 0.3%, #df9928 102.06%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -65,7 +66,7 @@
   width: 24px;
 }
 
-/* RIGHT SIDE (FORM) */
+/*-----Right Side (FORM)-----*/
 .contact-right {
   display: flex;
   flex-direction: column;
@@ -106,7 +107,7 @@
   border: none;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(267deg, #265cc9 0.3%, #B923E1 102.06%);
+  background: linear-gradient(267deg, #265cc9 0.3%, #df9928 102.06%);
   font-size: 20px;
   padding: 16px 50px;
   margin-bottom: 40px;
@@ -130,7 +131,7 @@
 }
 
 /* ---------------- MOBILE ---------------- */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .contact {
     gap: 50px;
     margin: 40px 20px;

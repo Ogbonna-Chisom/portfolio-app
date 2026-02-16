@@ -6,19 +6,19 @@ const Services = () => {
   const services = [
     {
       title: "IT",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam perferendis autem culpa!"
+      description: "Providing reliable IT solutions including system setup, troubleshooting, maintenance, and technical support to keep your technology running smoothly and efficiently."
     },
     {
       title: "Programming",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam perferendis autem culpa!"
+      description: "Building modern, responsive, and scalable web applications using the latest technologies to turn ideas into functional digital solutions."
     },
     {
       title: "Support",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam perferendis autem culpa!"
+      description: "Offering responsive technical and customer support to resolve issues quickly, ensure smooth operations, and deliver a seamless user experience."
     },
     {
-      title: "Content Writing",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam perferendis autem culpa!"
+      title: "Digital Marketing",
+      description: "Helping businesses grow online through strategic marketing, social media management, content creation, and lead generation to increase visibility and sales."
     }
   ]
 

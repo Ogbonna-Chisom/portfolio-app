@@ -14,7 +14,7 @@ const Contact = () => {
 
       <div className="contact-section">
 
-        {/* LEFT SIDE */}
+        {/*-----Left Side-----*/}
         <div className="contact-left">
           <h1>Let's Talk</h1>
           <p>
@@ -41,7 +41,7 @@ const Contact = () => {
         </div>
 
 
-        {/* RIGHT SIDE FORM */}
+        {/*-----Right Side Form-----*/}
         <form className="contact-right">
           <label>Your Name</label>
           <input type="text" placeholder="Enter your Name" name="name" />
