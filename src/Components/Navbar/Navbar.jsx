@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import routes from '../../config/routes';
+import { routes } from '../../config/routes';
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
