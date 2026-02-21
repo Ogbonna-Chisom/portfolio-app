@@ -1,9 +1,8 @@
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './Navbar.css';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { Link } from 'react-router-dom';
-import { navLink } from '../../config/Route';
+import routes from '../../config/routes';
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -24,24 +23,24 @@ const Navbar = () => {
       {/* Navigation Menu */}
       <ul className={`nav-menu ${menuOpen ? 'open' : ''}`}>
         <li>
-          <Link to={navLink.home}>Home</Link>
+          <Link to={routes.home}>Home</Link>
           {/* <AnchorLink href="#home" onClick={() => setMenuOpen(false)}>Home</AnchorLink> */}
         </li>
         <li>
           {/* <AnchorLink href="#about" onClick={() => setMenuOpen(false)}>About Me</AnchorLink> */}
-          <Link to={navLink.about}>About</Link>
+          <Link to={routes.about}>About</Link>
         </li>
         <li>
           {/* <AnchorLink href="#project" onClick={() => setMenuOpen(false)}>Project</AnchorLink> */}
-          <Link to={navLink.project}>Project</Link>
+          <Link to={routes.project}>Project</Link>
         </li>
         <li>
           {/* <AnchorLink href="#service" onClick={() => setMenuOpen(false)}>Service</AnchorLink> */}
-          <Link to={navLink.service}>Service</Link>
+          <Link to={routes.service}>Service</Link>
         </li>
         <li>
           {/* <AnchorLink href="#contact" onClick={() => setMenuOpen(false)}>Contact</AnchorLink> */}
-          <Link to={navLink.contact}>Contact</Link>
+          <Link to={routes.contact}>Contact</Link>
         </li>
       </ul>
 
