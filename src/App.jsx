@@ -6,18 +6,11 @@ import Services from './Components/Services/Services'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import Project from './Components/Project/Project'
+import AppRoutes from './containers/AppRoutes'
 
 const App = () => {
   return (
-    <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Project/>
-      <Services/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <AppRoutes/>
   )
 }
 

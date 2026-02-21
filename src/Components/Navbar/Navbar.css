@@ -70,7 +70,7 @@ body.dark .navbar {
   gap: 12px;
 }
 
-/* FIXED — removed large margins */
+/* toggle*/
 .theme-toggle {
   padding: 6px 14px;
   border-radius: 20px;
