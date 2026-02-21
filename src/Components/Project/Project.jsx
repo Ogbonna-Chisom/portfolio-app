@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project.css";
+// import "./Project.css";
 import portfolio_app from '../../assets/portfolio-app.png'
 import gamified_app from '../../assets/gamified-app.png'
 import budget_app from '../../assets/budget-app.png'
