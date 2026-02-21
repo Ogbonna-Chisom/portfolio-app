@@ -40,7 +40,7 @@ const Contact = () => {
 
 
         {/*-----Right Side Form-----*/}
-        <form className="contact-right">
+        <div className="contact-right">
           <label>Your Name</label>
           <input type="text" placeholder="Enter your Name" name="name" />
 
@@ -50,10 +50,10 @@ const Contact = () => {
           <label>Write your message here</label>
           <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
 
-          <button type="submit" className="contact-submit">
+          <button className="contact-submit">
             Submit
           </button>
-        </form>
+        </div>
 
       </div>
     </div>
